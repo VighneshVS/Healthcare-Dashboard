@@ -16,3 +16,10 @@
 .searchIcon, .notificationIcon{
     color: var(--highlight-bg);
 }
+
+@media (max-width: 560px){
+    .searchBox{
+        width: 85%;
+        gap:0;
+    }
+}

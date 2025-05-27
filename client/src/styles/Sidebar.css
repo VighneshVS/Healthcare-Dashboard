@@ -9,23 +9,6 @@
     background-color: var(--sidebar-bg);
 }
 
-.logo{
-    font-size: 30px;
-    display: flex;
-    gap: 0;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-.health{
-    color: var(--blue-highlight);
-    font-weight: 600;
-}
-.care{
-    color: var(--heading-color);
-    font-weight: 600;
-}
-
 .sidebar--general, .sidebar--tools{
     color: var(--sidebar-font);
     display: flex;
@@ -49,4 +32,10 @@
 
 .dash-icon{
     color: var(--highlight-bg);
+}
+
+@media (max-width: 1024px){
+    .sidebar{
+        display: none;
+    }
 }

@@ -13,12 +13,16 @@ import images from '../data/imageData'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlassPlus, faAngleDown, faArrowRight, faSquarePlus } from '@fortawesome/free-solid-svg-icons'
 import BarGraph from "../subcomponents/dashboardComponents/barGraph"
+import Logo from '../subcomponents/sidebarComponents/Logo'
 
 function Dashboard() {
   return (
     <div className='dashboard'>
+        <div className="logo-container">
+          <Logo />
+        </div>
         <div className='dash-header'>
-          <SearchBar />
+          <SearchBar className='searchBox'/>
           <div className="profileIcons">
             <img className="proPic" src={images.profile} />
             <FontAwesomeIcon className='addNew' icon={faSquarePlus} />

@@ -17,3 +17,9 @@
             margin: auto auto;
         }
 }
+
+@media (max-width: 850px){
+    .app{
+        padding: 2%;
+    }
+}

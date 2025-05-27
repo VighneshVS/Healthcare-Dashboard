@@ -1,0 +1,16 @@
+.logo{
+    font-size: 30px;
+    display: flex;
+    gap: 0;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.health{
+    color: var(--blue-highlight);
+    font-weight: 600;
+}
+.care{
+    color: var(--heading-color);
+    font-weight: 600;
+}

@@ -2,11 +2,12 @@ import React from 'react'
 import NavigationLinks from '../subcomponents/sidebarComponents/navigationLinks'
 import { generalLinks, toolLink, settingLink } from '../data/sidebarData'
 import "../styles/Sidebar.css"
+import Logo from '../subcomponents/sidebarComponents/Logo'
 
 function Sidebar() {
   return (
     <div className='sidebar'>
-        <div className="logo"><span className='health'>Health</span><span className='care'>care.</span></div>
+        <Logo />
         <div className="sidebar--general">
             <span>General</span>
             {generalLinks.map((navLink, index) => {

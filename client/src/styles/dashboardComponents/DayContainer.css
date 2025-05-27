@@ -49,5 +49,25 @@
     opacity: 0.5;
 }
 
+@media (max-width: 500px){
+    .weekContainer{
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dayContainer{
+        width: 70%;
+    }
+
+    #Sun, #Tues, #Thurs{
+        display: none;
+    }
+
+    #Mon, #Wed, #Fri, #Sat{
+        width: 50%;
+        border-radius: 20px;
+    }
+}
 
 

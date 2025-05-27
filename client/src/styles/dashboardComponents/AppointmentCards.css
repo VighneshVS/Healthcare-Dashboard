@@ -51,3 +51,9 @@
     background-color: var(--highlight-bg);
     color: var(--app-bg);
 }
+
+@media (max-width: 500px){
+    .appointmentCards{
+        gap:5%;
+    }
+}

@@ -106,3 +106,9 @@
     border-radius: 10px; 
 }
 
+@media (max-width: 500px){
+    .barContainer{
+        gap: 5px;
+    }
+}
+

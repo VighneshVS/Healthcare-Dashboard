@@ -205,6 +205,10 @@
     justify-content: space-between;
 }
 
+.activity{
+    color: var(--highlight-bg);
+}
+
 .submain-header-details{
     font-size: 13px;
     color: var(--sidebar-font);
@@ -311,4 +315,136 @@
     gap: 3px;
     font-size: 10px;
     color: var(--highlight-bg);
+}
+
+@media (min-width: 1024px){
+    .logo-container{
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .dashboard{
+        gap: 20px;
+    }
+
+    .logo-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .dash-header{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .dashboard-main{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .dashboardPart1{
+        width: 100%;
+    }
+
+    .anatomyAndHealthcards{
+        justify-content: space-between;
+    }
+
+    .calendarArea{
+        width: 100%;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .submainAndUpcoming{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .dashboard-submain{
+        width: 100%;
+        padding: 5%;
+    }
+
+    .dashboard-illustration, .illustration{
+        width: 100%;
+    }
+
+    .upcoming{
+        width: 100%;
+        padding-bottom: 3%;
+        align-items: center;
+    }
+}
+
+@media (max-width: 500px){
+    .dashboard{
+        gap: 5px;
+    }
+
+
+    .logo-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .dash-header{
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .dashboard-main{
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .dashboardPart1{
+        width: 100%;
+    }
+
+    .anatomyAndHealthcards{
+        gap:25%;
+    }
+
+    #heart{
+        left: 35%;
+    }
+
+    #leg{
+        left: 33%;
+    }
+
+    .calendarArea{
+        width: 90%;
+        align-items: center;
+        gap: 5px;
+    }
+
+
+    .submainAndUpcoming{
+        flex-direction: column;
+        gap: 5px;
+        align-items: flex-start;
+    }
+
+    .dashboard-submain{
+        width: 100%;
+        padding: 5px;
+    }
+
+    .dashboard-illustration, .illustration{
+        width: 80%;
+    }
+
+    .upcoming{
+        width: 100%;
+        padding-bottom: 3%;
+        align-items: center;
+    }
+
 }

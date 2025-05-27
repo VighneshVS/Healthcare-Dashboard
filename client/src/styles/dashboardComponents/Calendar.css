@@ -26,3 +26,10 @@
     color: var(--heading-color);
     font-weight: bold;
 }
+
+@media (max-width: 500px){
+    .calendarContainer{
+        width: 90%;
+        align-items: center;
+    }
+}
