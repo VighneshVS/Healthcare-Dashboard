@@ -1,0 +1,28 @@
+.healthStatusCard{
+    display: flex;
+    flex-direction: column;
+    border: 0;
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px;
+    gap: 6px;
+    background-color: var(--healthCards-bg);
+    align-items: center;
+}
+
+.icon-Name{
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    color: var(--heading-color);
+}
+
+.image{
+    height: 40px;
+    width: 40px;
+}
+
+.healthcard-date{
+    font-size: 10px;
+    color: var(--sidebar-font);
+}

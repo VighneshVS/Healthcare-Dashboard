@@ -1,0 +1,18 @@
+.searchBox{
+    display: flex;
+    gap: 20px;
+    border: 2px solid #d3d3d3;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 8px;
+}
+
+.textarea{
+    border: none;
+    outline: none;
+    width: 25rem;
+}
+
+.searchIcon, .notificationIcon{
+    color: var(--highlight-bg);
+}

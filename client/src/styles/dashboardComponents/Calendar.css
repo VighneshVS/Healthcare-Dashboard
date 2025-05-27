@@ -1,0 +1,28 @@
+.calendarContainer{
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.calendar-header{
+    width: 95%;
+    display: flex;
+    gap: 70%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-arrows{
+    display: flex;
+    gap: 7px;
+}
+
+.left-arrow, .right-arrow{
+    color: var(--highlight-bg);
+}
+
+.monthAndYear{
+    padding: 5px 0;
+    color: var(--heading-color);
+    font-weight: bold;
+}

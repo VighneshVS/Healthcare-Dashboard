@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    --html-bg: #D5E0EF;
+    --app-bg: #FFF;
+    --upcoming-highlights: #A8A6C3;
+    --sidebar-bg: #F6FBFF;
+    --healthCards-bg: #f6f5fd;
+    --heading-color: #211d4a;
+    --highlight-bg: #3936A8;
+    --sidebar-font: #CAC9D2;
+    --calendar-highlight: #f2f0fc;
+    --appointment-highlight: #e3e0f9;
+    --blue-highlight: #1FDDED;
+    --sidebar-font-size: 16px;
+    --lungs-bar: #ac4c41;
+    --teeth-bar: #B0E0E6;
+    --bone-bar: #F89880;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body, #root{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: var(--html-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

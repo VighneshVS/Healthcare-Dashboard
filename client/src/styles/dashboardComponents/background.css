@@ -1,0 +1,10 @@
+.backgroundArea{
+    right: 10px;
+    background-color: var(--sidebar-bg);
+    height: 97.5%;
+    width: 40%;
+    position: absolute;
+    border-radius: 0 30px 30px 0;
+    width: 40%;
+    z-index: 2;
+}

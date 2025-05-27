@@ -1,0 +1,314 @@
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+    width: 100%;
+    position: relative;
+    z-index: 4;
+}
+
+.dash-header{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dashboard-header{
+    padding: 10px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profileIcons{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.proPic, .addNew{
+    color: var(--highlight-bg);
+    border-radius: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.dashboard-main{
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+}
+
+.dashboardPart1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.fullBody{
+    padding: 20px;
+    position: relative;
+    background-color: var(--healthCards-bg);
+    width: 45%;
+    height: 370px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.magGlassIcon{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: var(--sidebar-font);
+}
+
+.fullbodyImg{
+    height: 310px;
+    width: 280px;
+}
+
+#heart{
+    position: absolute;
+    top: 23%;
+    left: 30%;
+    z-index: 1;
+}
+
+#leg{
+    position: absolute;
+    bottom: 30%;
+    left: 30%;
+    z-index: 1;
+    background-color: var(--blue-highlight);
+}
+
+.anatomyAndHealthcards{
+    display: flex;
+    height: fit-content;
+    gap: 15%;
+    position: relative;
+}
+
+.scanner-heart{
+    position: absolute;
+    top: 23%;
+    left: 22%;
+    width: 30px;
+    height: 40px;
+    border: 2px solid var(--highlight-bg);
+    z-index: 1;
+}
+
+.scanner-legs{
+    position: absolute;
+    bottom: 30%;
+    left: 23%;
+    width: 30px;
+    height: 40px;
+    border: 2px solid var(--highlight-bg);
+    z-index: 1;
+}
+
+.scanner-heart-in, .scanner-legs-in{
+    height: 50%;
+    width: 100%;
+    margin-top: 50%;
+    background: linear-gradient(to bottom, var(--highlight-bg) 0%, transparent);
+}
+
+.cardsAndDetails{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.healthCards{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+    width: 90%;
+    height: fit-content;
+}
+
+.health-details{
+    width: fit-content;
+    margin-left: auto;
+    display: flex;
+    gap: 7px;
+    padding-top: 5px;
+    color: var(--highlight-bg);
+    font-size: 10px;
+}
+
+.curved-line{
+    width: 200px;
+    height: 6px;
+    background-color: gray;
+    border-radius: 100%;
+}
+
+.icon-container{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    bottom: 20px;
+    border-radius: 100%;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rotate-icon{
+    height: 20px;
+    width: 20px;
+    bottom: 20px;
+}
+
+.calendarArea{
+    display: flex;
+    flex-direction: column;
+    gap:8%;
+    width: 48%;
+}
+
+.submainAndUpcoming{
+    display: flex;
+    gap: 5%;
+}
+
+.dashboard-submain{
+    margin-top: 15px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background-color: var(--healthCards-bg);
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.submain-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.submain-header-details{
+    font-size: 13px;
+    color: var(--sidebar-font);
+}
+
+.illustration{
+    display: flex;
+    gap: 2px;
+    width: 500px;
+    height: fit-content;
+    justify-content: space-evenly;
+}
+
+#Sun-graph2-in{
+    background-color: var(--blue-highlight);
+}
+
+#Mon-graph1-in-2{
+    background-color: var(--blue-highlight);
+}
+
+#Mon-graph1-in-1{
+    background-color: var(--highlight-bg);
+}
+
+#Mon-graph2-in{
+    background-color: var(--highlight-bg);
+}
+
+#Mon-graph4-in{
+    background-color: var(--blue-highlight);
+}
+
+#Tues-graph3-in-2{
+    background-color: var(--blue-highlight);
+}
+
+#Tues-graph3-in-1{
+    background-color: var(--highlight-bg);
+}
+
+#Tues-graph4-in{
+    background-color: var(--highlight-bg);
+}
+
+#Wed-graph2-in{
+    background-color: var(--blue-highlight);
+}
+
+#Wed-graph3-in-2{
+    background-color: var(--blue-highlight);
+}
+
+#Wed-graph3-in-1{
+    background-color: var(--highlight-bg);
+}
+
+#Thurs-graph2-in{
+    background-color: var(--highlight-bg);
+}
+
+#Thurs-graph4-in{
+    background-color: var(--blue-highlight);
+}
+
+#Fri-graph3-in-2{
+    background-color: var(--blue-highlight);
+}
+
+#Fri-graph3-in-1{
+    background-color: var(--highlight-bg);
+}
+
+#Sat-graph1-in-2{
+    background-color: var(--blue-highlight);
+}
+
+#Sat-graph1-in-1{
+    background-color: var(--highlight-bg);
+}
+
+#Sat-graph4-in{
+    background-color: var(--blue-highlight);
+}
+
+.nextdaysAppointment{
+    width: fit-content;
+}
+
+.upcoming{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.span-thurs, .span-sat{
+    color: var(--sidebar-font);
+    font-size: 13px;
+}
+
+.thisWeek{
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    font-size: 10px;
+    color: var(--highlight-bg);
+}
