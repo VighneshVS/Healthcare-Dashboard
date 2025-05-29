@@ -22,4 +22,7 @@
     .app{
         padding: 2%;
     }
+    .backgroundArea{
+        display:none;
+    }
 }
